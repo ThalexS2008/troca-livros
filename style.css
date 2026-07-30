@@ -1,25 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
 *{
     margin: 0;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header{
-    background-color: rgb(139, 119, 93);
-    color:rgb(156, 148, 135);
-    width: 100%;
+    background-color: rgb(0, 87, 102);
+    color:rgb(146, 120, 78);
+    max-width: 100%;
     height: 70px;
     display: flex;
     justify-content: space-between;
-    color:rgb(128, 150, 150);
+    color:rgb(255, 255, 255);
     align-items: center;
-    pad: 30px;       
+    padding: 0 100px ;     
 }     
 
 ul{
    display: flex;
-   gap: 40px; 
+   gap: 40px;
+   list-style: none; 
 }
 
 #nome-logo{
-    margin-left: 30px;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid rgb(0, 0, 0)
+ 
+}
+a{
+    display:inline-block;
+    text-decoration: none;
+    color:aliceblue;
+    padding: 5px;
+    transition:0.3s;
 }
 
+a:hover{
+    color:antiquewhite;
+    background-color:rgb(5, 4, 2);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray
+
+}
