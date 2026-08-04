@@ -87,3 +87,40 @@ p{
     border-radius: 20px;
 
 }
+
+.foto-livro{
+    max-width: 10vw;
+}
+
+.grade-livros{
+    max-width: auto;
+    background-color:#293053;
+    margin: 20px;
+}
+
+
+.area-titulo{
+    text-align:center;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.card-livro{
+    width: 250px;
+    text-align:center;
+    border-radius: 3px;
+    background-color:#293053;
+    padding: 3px;
+    box-shadow: 0px 10px 10px;
+    overflow:hidden;
+}
+
+.btn-livros{
+    background-color:black;
+    padding: 20px 30px;
+    color: var(--branco-fonte);
+    border:none;
+    border-radius: 5px;
+}
