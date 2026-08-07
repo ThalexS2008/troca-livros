@@ -181,3 +181,31 @@ p{
     font-size:16px;
     margin-botton:15px;
 }
+
+/*Secao como funciona*/
+
+.ajuda{
+    background-color:#3457D5;
+    padding: 60px 20px;
+}
+
+.ajuda h2{
+    color:#ffffff ;
+    text-aligo: center;
+    margin-botton: 40px;
+    font-size: 35px;
+}
+
+.todos-passos{
+    display: flex;
+    justify-content: center;
+    max-width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.passo{
+    width: 25vw;
+}
