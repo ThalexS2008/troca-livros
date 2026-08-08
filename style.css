@@ -108,6 +108,11 @@ p{
 }
 
 .info-livro{
+    height: 250px;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding-top: 20px;
  
 }
@@ -209,3 +214,15 @@ p{
 .passo{
     width: 25vw;
 }
+
+.fonter-container{
+    background-image:#263b88;
+    color:white;
+    display: flex;
+}
+
+.footer-coluna{
+    display: flex;
+    flex-direction: column;
+}
+
